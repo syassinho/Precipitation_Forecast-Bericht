@@ -2,5 +2,6 @@
 *.yaml annex.largefiles=nothing
 *.yml annex.largefiles=nothing
 
+
 #annex only files larger than 100 Mb
-* annex.largefiles=(largerthan=100M)
+data/** annex.largefiles=(largerthan=100M)
